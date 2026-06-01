@@ -141,3 +141,10 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Ignore ALL private keys anywhere in the repository (Crucial for Security!)
+*.key
+
+# Exclude certificates and CSRs from being ignored (We WANT to commit them)
+!*.crt
+!*.csr
