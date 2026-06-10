@@ -32,7 +32,7 @@ openssl-tls-compliance-checker/
 │   ├── eddsa/        # Q1: EdDSA Ed448 self-signed certificate
 │   ├── pqc/          # Q1: PQC ML-DSA-87 self-signed certificate
 │   ├── chain/        # Q2: Hybrid certificate chain (4 levels)
-│   └── nginx_weak/   # BONUS: Intentionally weak certificate
+│   └── nginx_weak/   # weak certificate
 ├── scripts/
 │   └── ssl_inspector.sh  # Q3: Automated TLS compliance checker
 └── results/
@@ -77,10 +77,12 @@ bash scripts/ssl_inspector.sh dit.hua.gr 443
 
 ## 📋 Requirements
 
+```
 Ubuntu 22.04/24.04
 OpenSSL 3.0.x
 OQS Provider (for PQC support)
 Nginx 
+```
 
 ---
 
