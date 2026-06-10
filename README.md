@@ -8,7 +8,7 @@
 
 ## 👤 Student Information
 * **University:** Harokopio University of Athens (HUA)
-* **Master's Program:** MSc in Cybersecurity
+* **Master's Program:** MSc in Advances in Computer Science and Informatics Systems
 * **Course:** Cyber Security
 * **Student Name:** Drosos Katsimpras
 * **Repository:** [openssl-tls-compliance-checker](https://github.com/drososkats/openssl-tls-compliance-checker)
@@ -16,7 +16,7 @@
 ---
 
 ## 📌 Overview
-This repository contains a professional-grade TLS evaluation suite and cryptographic infrastructure toolset developed as part of the **Master's in Cybersecurity at Harokopio University of Athens**. 
+This repository contains a professional-grade TLS evaluation suite and cryptographic infrastructure toolset developed as part of the **Master's in Advances in Computer Science and Informatics Systems at Harokopio University of Athens**. 
 
 The project implements an automated **Security Compliance Engine** designed to audit remote and local web servers against modern cryptographic standards. Furthermore, it demonstrates **Crypto-Agility** by establishing a hybrid Public Key Infrastructure (PKI) capable of bridging classical asymmetric cryptography with Quantum-Resistant algorithms.
 
@@ -24,6 +24,7 @@ The project implements an automated **Security Compliance Engine** designed to a
 
 ## 🗂️ Repository Structure
 
+```
 openssl-tls-compliance-checker/
 ├── certificates/
 │   ├── rsa/          # Q1: RSA-15360 self-signed certificate
@@ -35,8 +36,8 @@ openssl-tls-compliance-checker/
 ├── scripts/
 │   └── ssl_inspector.sh  # Q3: Automated TLS compliance checker
 └── results/
-└── testssl_dit_hua_gr.log  # Q4: testssl.sh scan results
-
+    └── testssl_dit_hua_gr.log  # Q4: testssl.sh scan results
+```
 ---
 
 ## 🚀 Phases
@@ -51,7 +52,7 @@ openssl-tls-compliance-checker/
 - `ssl_inspector.sh`: automated TLS/SSL checker
 - Checks: TLS version, weak ciphers, certificate criteria
 - Tested against badssl.com (5 vulnerabilities)
-- BONUS: Weak Nginx local server audit
+- Weak Nginx local server audit
 
 ### Phase 3 — Real-World Audit (Q4)
 - Target: `dit.hua.gr`
