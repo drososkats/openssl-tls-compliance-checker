@@ -37,6 +37,7 @@ openssl-tls-compliance-checker/
 │   └── ssl_inspector.sh  # Q3: Automated TLS compliance checker
 └── results/
     └── testssl_dit_hua_gr.log  # Q4: testssl.sh scan results
+    └── qualys_ssl_labs_report_dit_hua_gr.pdf    
 ```
 ---
 
